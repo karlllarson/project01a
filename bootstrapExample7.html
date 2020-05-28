@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script>
+        .jumbotron {
+            background-color:#2e2d88;
+            color: white;
+        }
+        .tab-content {
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+        }
+        .nav-tabs {
+            margin-bootom: 0;
+        }
+    </script>
+</head>
+<body>
+             <!-- col-md-3 - for a medium screen - takes up 3 columns of the 12 columns-->
+   <div class="container">
+ <!-- row by default has 12 columns-->
+            <!-- col-lg-3 - for a large screen - takes up 3 columns of the 12 columns-->
+            <!-- col-sm-6 - for a small screen - takes up 6 columns of the 12 columns-->
+            <!-- col-xs-12 - for an extra-small screen - takes up all 12 columns-->
+
+        <div class="row">
+            <!-- table classes -->
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <table class="table table-bordered table-striped table-hover">
+                    <thead>
+                        <tr><th class="col-md-2">Column 1</th><th>Column 2</th><th>Column 4</th></tr>
+                    </head>
+                    <tbody>
+                        <tr><td class="col-md-2">One</td><td>Two</td><td>Three</td></tr>
+                        <tr><td class="col-md-2">Four</td><td>Five</td><td>Six</td></tr>
+                        <tr><td class="col-md-2">Seven</td><td>Eight</td><td>Nine</td></tr>
+                    </tbody>
+                </table>
+            </div>
+       </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

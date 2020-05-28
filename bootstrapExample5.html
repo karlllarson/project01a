@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script>
+        .jumbotron {
+            background-color:#2e2d88;
+            color: white;
+        }
+        .tab-content {
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+        }
+        .nav-tabs {
+            margin-bootom: 0;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+    <!-- automatically show/hide based on screen sizes-->
+ <!-- row by default has 12 columns-->
+            <!-- col-lg-3 - for a large screen - takes up 3 columns of the 12 columns-->
+            <!-- col-md-3 - for a medium screen - takes up 3 columns of the 12 columns-->
+            <!-- col-sm-6 - for a small screen - takes up 6 columns of the 12 columns-->
+            <!-- col-xs-12 - for an extra-small screen - takes up all 12 columns-->
+
+        <div class="well hidden-sm hidden-md hidden-lg"><p>Screen &lt; 768px</p></div>
+        <div class="well hidden-md hidden-lg"><p>Screen &gt;= 768px and &lt; 992px</p></div>
+        <div class="well hidden-lg"><p>Screen &gt;= 992px and &lt; 1200px</p></div>
+        <div class="well"><p>Screen &gt; 1200px</p></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

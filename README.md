@@ -1,2 +1,2 @@
-# project01a
-QuickStart Project 1 - Simple Web Site Frontend
+# project01
+Quickstart Project 1
